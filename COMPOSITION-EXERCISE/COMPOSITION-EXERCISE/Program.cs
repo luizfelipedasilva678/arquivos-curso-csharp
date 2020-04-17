@@ -53,7 +53,7 @@ namespace COMPOSITION_EXERCISE
                 orderItem.Product.Price = productPrice;
                 order.addItem(orderItem);
             }
-
+            Console.WriteLine("---------------------------");
             Console.WriteLine("Order Summary: ");
             Console.WriteLine(order);
             Console.WriteLine("Total Price: " + order.total());
